@@ -14,7 +14,6 @@ public class Test : MonoBehaviour
     {
        float h = Input.GetAxisRaw("Horizontal"); 
        float v = Input.GetAxisRaw("Vertical");
-       ///ashkan
        gameObject.transform.position =
        new Vector2(transform.position.x + (h*Speed),
        transform.position.y + (v*Speed));
